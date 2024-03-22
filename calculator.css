@@ -1,0 +1,75 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    background: linear-gradient(to right, #ff9999, #66ccff);
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+.header h1 {
+    font-size: 2rem;/* Make the header title bigger */
+}
+
+/* Customize the appearance of navigation menu links */
+.menu a {
+    color: white; 
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+/* Apply an underline effect on hover for menu links */
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.calculation-section {
+    width: 80%; 
+    max-width: 800px;
+    margin: 20px auto; /* Centering the section */
+    padding: 40px; 
+    border: 2px solid #ccc; 
+    border-radius: 20px; 
+    text-align: center;
+}
+
+.calculation-section .calculator-icon {
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: center; 
+}
+
+.calculation-section .calculator-icon img {
+    width: 80px; 
+}
+
+.calculation-section .input-fields,
+.calculation-section .answer-field,
+.calculation-section .calculate-btn {
+    margin-bottom: 20px;  /* Spacing between input fields, answer field, and button */
+}
+footer {
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}

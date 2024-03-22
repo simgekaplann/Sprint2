@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikola Tesla Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+    <link rel="stylesheet" href="headerStyles.css">
+    <link rel="stylesheet" href="footer.css">
+
+</head>
+<body>
+
+    <div class="header">
+        <h1>TESLA</h1>
+        <!-- Navigation -->
+        <div class="menu">
+            <a href="index.html">About Tesla</a>
+            <a href="calculator.html">Calculations Corner</a>
+            <a href="event.html">Event</a>
+            <a href="supportPage.html">Support</a>
+            <a href="quiz.html">Quiz</a>
+        </div>
+    </div>
+
+    <!-- Choose a Calculation Section -->
+    <section class="calculation-section">
+        <h1>Choose a Calculation</h1>
+        <br>
+        
+    <!-- Selection menu for calculation type -->
+        <div class="calculation-options">
+            <label for="calculation">Choose a Calculation:</label>
+            <select id="calculation" name="calculation">
+                <option value="electric-field">Electric Field Calculation</option>
+                <option value="other-calculation">Other Calculation</option>
+                <!-- Other formulas we will use will be added here.-->
+            </select>
+        </div>
+        <div class="calculator-icon">
+            <img src="calculator.jpg" alt="Calculator Icon">
+        </div>
+         <!-- Input fields for values -->
+        <div class="input-fields">
+            <label for="constant">k:</label>
+            <input type="text" id="constant" name="constant" placeholder="k">
+            <label for="distance">d:</label>
+            <input type="text" id="distance" name="distance" placeholder="d">
+            <label for="charge">q:</label>
+            <input type="text" id="charge" name="charge" placeholder="q">
+        </div>
+        <button class="calculate-btn">Calculate</button>
+        <div class="answer-field">
+            <label for="answer">Answer:</label>
+            <input type="text" id="answer" name="answer" readonly>
+        </div>
+    </section>
+   
+
+    <!-- Copyright Information -->
+    
+    <footer class="footer">
+        <p>© 2024 All rights reserved to KaplanOzyurt.</p>
+    </footer>
+    
+</body>
+</html>
+
